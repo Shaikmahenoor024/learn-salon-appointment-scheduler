@@ -1,0 +1,32 @@
+2024-08-01 17:21:23.666 [info] Log level: Info
+2024-08-01 17:21:23.666 [info] Validating found git in: "git"
+2024-08-01 17:21:23.666 [info] Using git "2.43.0" from "git"
+2024-08-01 17:21:23.666 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-01 17:21:23.666 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-01 17:21:23.666 [info] Open repository: /workspace/project
+2024-08-01 17:21:23.666 [info] > git config --get commit.template [6ms]
+2024-08-01 17:21:23.666 [info] > git rev-parse --show-toplevel [39ms]
+2024-08-01 17:21:23.666 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-01 17:21:23.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-08-01 17:21:23.666 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-08-01 17:21:23.666 [info] > git rev-parse refs/remotes/origin/main [60ms]
+2024-08-01 17:21:23.666 [info] > git status -z -uall [3ms]
+2024-08-01 17:21:23.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-08-01 17:21:23.667 [info] > git config --get commit.template [9ms]
+2024-08-01 17:21:23.667 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-08-01 17:21:23.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2024-08-01 17:21:23.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-01 17:21:23.667 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-08-01 17:21:23.667 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-08-01 17:21:23.667 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-08-01 17:21:23.667 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [7ms]
+2024-08-01 17:21:23.667 [info] > git status -z -uall [7ms]
+2024-08-01 17:21:23.667 [info] > git diff --name-status -z --diff-filter=ADMR 8d4fd5c9cbd4603c33190bb9d70bbbf3ade80fb2...refs/remotes/origin/main [9ms]
+2024-08-01 17:21:23.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-01 17:21:23.667 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-01 17:21:23.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-01 17:21:24.200 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-01 17:21:24.485 [info] > git show --textconv :salon.sh [7ms]
+2024-08-01 17:21:24.487 [info] > git ls-files --stage -- /workspace/project/salon.sh [2ms]
+2024-08-01 17:21:27.964 [info] > git config --local branch.main.github-pr-owner-number [115ms]
+2024-08-01 17:21:27.964 [warning] git config failed: Failed to execute git

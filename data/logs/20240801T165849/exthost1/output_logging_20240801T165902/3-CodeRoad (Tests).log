@@ -1,0 +1,90 @@
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 "before all" hook for ":1 "salon" database should exist"
+
+Error: Cannot connect to PostgreSQL
+error: database "salon" does not exist
+at Context.<anonymous> (test/1.1.test.js:40:13)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 "after all" hook for ":21 You should display the suggested message after adding an new appointment"
+
+Error: Connection terminated unexpectedly
+at Connection.<anonymous> (node_modules/pg/lib/client.js:272:71)
+at Object.onceWrapper (node:events:632:28)
+at Connection.emit (node:events:518:28)
+at Socket.<anonymous> (node_modules/pg/lib/connection.js:102:10)
+at Socket.emit (node:events:530:35)
+at endReadableNT (node:internal/streams/readable:1696:12)
+at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+FAILED TEST LOG
+
+An error occurred running ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+  ✘ SUBTASKS 1.1 :15 You should display a list of services you offer
+
+Error: Command failed: ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+An error occurred running ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+  ✘ SUBTASKS 1.1 :16 You should display the list of services again if the entered service doesn't exist
+
+Error: Command failed: ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+An error occurred running ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+  ✘ SUBTASKS 1.1 :18 You should enter a new customer into the database if they don't exist
+
+Error: Command failed: ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+An error occurred running ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+  ✘ SUBTASKS 1.1 :19 You can add a new appointment by entering the suggested input at each prompt
+
+Error: Command failed: ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+An error occurred running ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+  ✘ SUBTASKS 1.1 :20 You can create an appointment for an existing customer by entering the suggested input at each prompt
+
+Error: Command failed: ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+
+An error occurred running ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+  ✘ SUBTASKS 1.1 :21 You should display the suggested message after adding an new appointment
+
+Error: Command failed: ../salon.sh
+../salon.sh: line 55: GET_SERVICES_IDchmod: command not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)

@@ -1,0 +1,45 @@
+2024-08-01 16:58:49.383 [info] 
+
+
+
+
+2024-08-01 16:58:49.401 [info] Extension host agent started.
+2024-08-01 16:58:49.416 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-08-01 16:58:49.518 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2024-08-01 16:58:49.534 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-08-01 16:58:51.029 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2024-08-01 16:58:51.049 [info] Getting Manifest... github.vscode-pull-request-github
+2024-08-01 16:58:51.353 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-12T11:49:45.590Z"}}
+2024-08-01 16:58:52.900 [error] Could not load vsce-sign module Cannot find module 'node-ovsx-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-08-01 16:58:52.900 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2024-08-01 16:58:52.963 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.92.0-universal: github.vscode-pull-request-github
+2024-08-01 16:58:52.967 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.92.0-universal
+2024-08-01 16:58:52.978 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2024-08-01 16:58:52.979 [info] Extension 'github.vscode-pull-request-github' v0.92.0 was successfully installed.
+2024-08-01 16:58:52.982 [info] Installing extensions...
+2024-08-01 16:58:53.256 [info] Installing extension 'coderoad.coderoad'...
+2024-08-01 16:58:53.257 [info] Getting Manifest... coderoad.coderoad
+2024-08-01 16:58:53.422 [info] Installing extension: coderoad.coderoad {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-12T11:49:45.590Z"}}
+2024-08-01 16:58:54.181 [error] Could not load vsce-sign module Cannot find module 'node-ovsx-sign'
+Require stack:
+- /ide/out/server-main.js
+2024-08-01 16:58:54.181 [info] Extension signature verification is not done: coderoad.coderoad
+2024-08-01 16:58:54.238 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal: coderoad.coderoad
+2024-08-01 16:58:54.240 [info] Renamed to /workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal
+2024-08-01 16:58:54.249 [info] Extension installed successfully: coderoad.coderoad file:///workspace/.vscode-remote/extensions/extensions.json
+2024-08-01 16:58:54.249 [info] Extension 'coderoad.coderoad' v0.19.4 was successfully installed.
+2024-08-01 16:58:56.049 [info] [192.168.139.202][d743ba2a][ManagementConnection] New connection established.
+2024-08-01 16:59:00.106 [info] [192.168.219.139][72a6e56e][ExtensionHostConnection] New connection established.
+2024-08-01 16:59:00.111 [info] [192.168.219.139][72a6e56e][ExtensionHostConnection] <615> Launched Extension Host Process.
+2024-08-01 17:15:19.758 [info] [192.168.139.202][d743ba2a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 17:15:19.820 [info] [192.168.219.139][72a6e56e][ExtensionHostConnection] <615> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 17:21:00.095 [info] [192.168.44.9][2ee0c5cf][ManagementConnection] New connection established.
+2024-08-01 17:21:00.782 [info] [192.168.139.202][90f1b8e9][ExtensionHostConnection] New connection established.
+2024-08-01 17:21:00.793 [info] [192.168.139.202][90f1b8e9][ExtensionHostConnection] <4248> Launched Extension Host Process.
+2024-08-01 17:21:36.972 [info] [192.168.44.9][2ee0c5cf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-01 17:21:37.031 [info] [192.168.139.202][90f1b8e9][ExtensionHostConnection] <4248> Extension Host Process exited with code: 0, signal: null.
+2024-08-01 17:21:41.747 [info] [192.168.44.9][13224e38][ManagementConnection] New connection established.
+2024-08-01 17:21:42.534 [info] [192.168.219.139][c3386f40][ExtensionHostConnection] New connection established.
+2024-08-01 17:21:42.539 [info] [192.168.219.139][c3386f40][ExtensionHostConnection] <4832> Launched Extension Host Process.
